@@ -7,7 +7,11 @@ class spiderman  {
       this.studio = studio
       
     }
+    get getInfo(){
+        return `Hey, I'm ${this.actor} from ${this.studio} studio`
+    }
   }
+  
   
   // Esta línea nos permite exportar nuestra clase
   module.exports = spiderman
